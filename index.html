@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <style>
+        
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+#wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2em;
+    color: #b0003a;
+    margin: 0;
+    border: 1px solid #777;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+header blockquote {
+    font-style: italic;
+    color: #555;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    
+    
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+section h2 {
+    color: #b0003a;
+    border-bottom: 2px solid #b0003a;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+#skill ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#skill ul{
+    display: flex;
+}
+#skill ul li{
+
+    
+    height: 8px;
+    background-color: #b0003a;
+    border-radius: 4px;
+    flex-flow: column nowrap;
+}
+#skill2 ul{
+    display: flex;
+}
+
+
+#hobby ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#hobby ul li {
+    text-align: center;
+    flex: 1;
+    min-width: 120px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <nav>
+                <h1>이젠컴</h1>
+                <p>EzenC</p>
+                <blockquote>"지금 아니면 어디에도 없을 이젠컴</blockquote>
+                <img src="./images/resume.png" alt="소녀">
+        </nav>
+        </header>
+        <main>
+            <section id="content">
+                 <h2>상세정보</h2>
+                <ul>
+                    <li>이름 김명철</li>
+                    <li>생일 2000 - 01 -01</li>
+                    <li>핸드폰 010 1234 5678</li>
+                    <li>이메일 indopop@naver.com</li>
+                    <li>블로그 ezen.blog.me</li>
+                    <li>주소 서울시 성동구 성수동</li>
+                </ul>
+            </section>
+            <section id="skill1">
+                <h2>자격정보</h2>
+                    <ul>
+                        <li>DESIGN GTQ 포토샵 2급</li>
+                        <li>O.A ITQ 엑셀 A</li>
+                        <li>O.A ITQ 엑셀 A</li>
+                        <li>O.A ITQ 엑셀 A</li>
+                        <li>WEB 웹디자인 기능사</li>
+                    </ul>
+            </section>
+            <section id="school">
+                <h2>학력사항</h2>
+                <ul>
+                    <li>2010~2014 한국대학교 컴퓨터공학과 졸업</li>
+                    <li>NCS UXNI 디지털디자인 과정 수료</li>
+                </ul>
+            </section>
+            <section id="skill2">
+                <h2>능력치</h2>
+                <ul>
+                    <li><img src="./images/ps_ability.png" alt="피에스"></li>
+                    <li><img src="./images/ai_ability.png" alt="에이아이"></li>
+                    <li><img src="./images/id_ability.png" alt="아이디"></li>
+                    <li><img src="./images/pr_ability.png" alt="피알"></li>
+                </ul>
+                <section id="hobby">
+                    <h2>취미활동</h2>
+                    <ul>
+                        <li><img src="./images/hobby_01.png" alt="사진"></li>
+                        <li><img src="./images/hobby_02.png" alt="요리"></li>
+                        <li><img src="./images/hobby_03.png" alt="볼링"></li>
+                        <li><img src="./images/hobby_04.png" alt="영화"></li>
+                        <li><img src="./images/hobby_05.png" alt="손글씨"></li>
+                    </ul>
+                </section>
+                
+            </section>
+        </main>
+        <footer>
+            <p>Copyright ALL RIghts Reserved,MCSSAm</p>
+        </footer>
+    </div>
+ 
+</body>
+</html>
